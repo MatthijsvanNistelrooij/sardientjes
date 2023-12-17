@@ -46,7 +46,7 @@ const FileUploader = ({ fieldChange }: FileUploaderProps) => {
             alt="file-upload"
           />
           <h3 className="base-medium text-light-2 mb-2 mt-6">
-            Click, or drag photo here
+            Click here, or drag a here
           </h3>
           <p className="text-light-4 small-regular mb-6">SVG, PNG, JPG</p>
         </div>
