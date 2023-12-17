@@ -1,6 +1,5 @@
-import React, { useCallback, useState } from "react"
+import { useCallback, useState } from "react"
 import { FileWithPath, useDropzone } from "react-dropzone"
-import { Button } from "../ui/button"
 
 type FileUploaderProps = {
   fieldChange: (FILES: File[]) => void
@@ -50,7 +49,6 @@ const FileUploader = ({ fieldChange, mediaUrl }: FileUploaderProps) => {
             Click, or drag photo here
           </h3>
           <p className="text-light-4 small-regular mb-6">SVG, PNG, JPG</p>
-
         </div>
       )}
     </div>
